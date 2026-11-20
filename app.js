@@ -53,7 +53,7 @@ function cardHtml(item){
       <span class="card-fallback" aria-hidden="true">${item.type==='PDF'?'∑':'↗'}</span>
     </div>
     <div class="card-content">
-      <div class="card-meta"><span>${escapeHtml(item.aa)}</span><span title="${weekDates[item.week-1]} de 2026">Semana ${String(item.week).padStart(2,'0')}*</span></div>
+      <div class="card-meta"><span>${escapeHtml(item.aa)}</span><span title="${weekDates[item.week-1]} de 2026">Semana ${String(item.week).padStart(2,'0')}</span></div>
       <h4>${escapeHtml(item.title)}</h4><p>${escapeHtml(item.description)}</p>
       <div class="card-actions"><a class="card-link" href="${url}" target="_blank" rel="noopener noreferrer" aria-label="Abrir ${escapeHtml(item.title)} en Google Drive">Ver archivo <span aria-hidden="true">→</span></a>
       <button class="card-preview" type="button" data-preview="${escapeHtml(item.id)}" aria-label="Vista previa de ${escapeHtml(item.title)}">Vista rápida</button></div>
