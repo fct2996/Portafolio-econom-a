@@ -52,17 +52,17 @@ const valoracionesPorSemana = [
   {week:2,activity:'AA2: bienestar Costa Rica–Chile; AA3: aranceles',learning:'Comparé indicadores de bienestar y analicé cómo las barreras comerciales pueden afectar a un país.'},
   {week:3,activity:'AA4: modelos económicos',learning:'Revisé diferentes modelos económicos para interpretar decisiones de producción y comercio. Me gustó mucho hacer esta investigación, es curioso saber cómo funcionan las cosas ante nuetros ojos.'},
   {week:4,activity:'AA5: inflación, política monetaria y análisis de afirmaciones',learning:'Practiqué la distinción entre economía positiva y normativa al analizar la inflación.'},
-  {week:5,activity:'Sin evidencia incorporada en el portafolio',learning:'No hubo un trabajo en sí asignado para esta semana.'},
+  {week:5,activity:'Sin evidencia incorporada en el portafolio',learning:'No hubo un trabajo en sí asignado para esta semana. Pero me di a la tarea de repasar.'},
   {week:6,activity:'AA6: oferta y demanda',learning:'Fortalecí mi comprensión de los cambios de oferta y demanda y su efecto en los precios.'},
   {week:7,activity:'AA7: ejercicios sobre el mercado',learning:'Practiqué la justificación de resultados y el análisis de situaciones relacionadas con el mercado.'},
   {week:8,activity:'Primer examen parcial',learning:'Semana dedicada a evaluar los temas del primer bloque. Fue un examen diferente a lo normal, muy creativo, intuitivo, divertido y con un camino de aprendizaje muy guiado profe. Gracias.'},
-  {week:9,activity:'AA8: curvas de oferta y costos',learning:'Relacioné las curvas y los costos con las decisiones económicas de producción. Fue una actividad que más me costó, pero por el hecho de identificar todos los puntos, las diagramas, las curvas y demás. Aún así, fue muy beneficiosa al nivel de aprendizaje.'},
+  {week:9,activity:'AA8: curvas de oferta y costos',learning:'Relacioné las curvas y los costos con las decisiones económicas de producción. Fue una actividad que me costó, pero por el hecho de identificar todos los puntos, las diagramas, las curvas y demás. Aún así, fue muy beneficiosa al nivel de aprendizaje.'},
   {week:10,activity:'AA9 P1: ejercicios de oferta, ingresos y costos; AA9 P2: PIB y satisfacción',learning:'Apliqué conceptos de costos y contrasté el crecimiento económico con el bienestar.'},
   {week:11,activity:'Presentación: supercolón y competitividad',learning:'Reflexioné sobre cómo la apreciación del colón influye en las exportaciones y la competitividad.'},
   {week:12,activity:'AA10 P1: salarios e IPC; AA10 P2: ENADEL y empleo tecnológico',learning:'Interpreté indicadores salariales y de demanda laboral útiles para el sector tecnológico.'},
   {week:13,activity:'AA10 P3: BCCR y Vietnam',learning:'Comparé decisiones de política monetaria y sus posibles consecuencias económicas.'},
-  {week:14,activity:'Sin evidencia incorporada en el portafolio',learning:'No hubo un trabajo en sí asignado para esta semana.'},
-  {week:15,activity:'AA11: balanza de pagos y tipo de cambio; investigación grupal anunciada',learning:'Relacioné el tipo de cambio, la balanza de pagos y las reservas con la economía internacional.'},
+  {week:14,activity:'Sin evidencia incorporada en el portafolio',learning:'No hubo un trabajo en sí asignado para esta semana. Pero me di a la tarea de repasar'},
+  {week:15,activity:'AA11: balanza de pagos y tipo de cambio',learning:'Relacioné el tipo de cambio, la balanza de pagos y las reservas con la economía internacional.'},
 ];
 
 const weekNotes={8:'Primer examen parcial'};
