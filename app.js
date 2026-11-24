@@ -30,38 +30,38 @@ const weekDates=['03–09 ago','10–16 ago','17–23 ago','24–30 ago','31 ago
 // Estos valores se publican para todas las personas cuando subas app.js a GitHub.
 // Los valores null se muestran como "Por completar", para no inventar una nota personal.
 const calificacionesPorSemana = {
-  1: null, // Semana 01
-  2: null, // Semana 02
-  3: null, // Semana 03
-  4: null, // Semana 04
-  5: null, // Semana 05
-  6: null, // Semana 06
-  7: null, // Semana 07
-  8: null, // Semana 08
-  9: null, // Semana 09
-  10: null, // Semana 10
-  11: null, // Semana 11
-  12: null, // Semana 12
-  13: null, // Semana 13
-  14: null, // Semana 14
-  15: null, // Semana 15
+  1: 100, // Semana 01
+  2: 100, // Semana 02
+  3: 100, // Semana 03
+  4: 100, // Semana 04
+  5: 100, // Semana 05
+  6: 100, // Semana 06
+  7: 100, // Semana 07
+  8: 100, // Semana 08
+  9: 95, // Semana 09
+  10: 100, // Semana 10
+  11: 100, // Semana 11
+  12: 100, // Semana 12
+  13: 100, // Semana 13
+  14: 100, // Semana 14
+  15: 100, // Semana 15
 };
 
 const valoracionesPorSemana = [
-  {week:1,activity:'AA1: generación eléctrica renovable',learning:'Relacioné las limitaciones de recursos con decisiones de producción energética y sus consecuencias.'},
+  {week:1,activity:'AA1: generación eléctrica renovable',learning:'Relacioné las limitaciones de recursos con decisiones de producción energética y sus consecuencias. Fue un muy buen trabajo para empezar el curso, me ayudó a comprender muchas cosas que fueron útiles en lo que siguió del curso.'},
   {week:2,activity:'AA2: bienestar Costa Rica–Chile; AA3: aranceles',learning:'Comparé indicadores de bienestar y analicé cómo las barreras comerciales pueden afectar a un país.'},
-  {week:3,activity:'AA4: modelos económicos (semana provisional)',learning:'Revisé diferentes modelos económicos para interpretar decisiones de producción y comercio.'},
+  {week:3,activity:'AA4: modelos económicos',learning:'Revisé diferentes modelos económicos para interpretar decisiones de producción y comercio. Me gustó mucho hacer esta investigación, es curioso saber cómo funcionan las cosas ante nuetros ojos.'},
   {week:4,activity:'AA5: inflación, política monetaria y análisis de afirmaciones',learning:'Practiqué la distinción entre economía positiva y normativa al analizar la inflación.'},
-  {week:5,activity:'Sin evidencia incorporada en el portafolio',learning:'Pendiente de verificar qué contenidos o actividades se trabajaron esta semana.'},
+  {week:5,activity:'Sin evidencia incorporada en el portafolio',learning:'No hubo un trabajo en sí asignado para esta semana.'},
   {week:6,activity:'AA6: oferta y demanda',learning:'Fortalecí mi comprensión de los cambios de oferta y demanda y su efecto en los precios.'},
   {week:7,activity:'AA7: ejercicios sobre el mercado',learning:'Practiqué la justificación de resultados y el análisis de situaciones relacionadas con el mercado.'},
-  {week:8,activity:'Primer examen parcial',learning:'Semana dedicada a evaluar los temas del primer bloque; pendiente de completar mi valoración personal.'},
-  {week:9,activity:'AA8: curvas de oferta y costos',learning:'Relacioné las curvas y los costos con las decisiones económicas de producción.'},
+  {week:8,activity:'Primer examen parcial',learning:'Semana dedicada a evaluar los temas del primer bloque. Fue un examen diferente a lo normal, muy creativo, intuitivo, divertido y con un camino de aprendizaje muy guiado profe. Gracias.'},
+  {week:9,activity:'AA8: curvas de oferta y costos',learning:'Relacioné las curvas y los costos con las decisiones económicas de producción. Fue una actividad que más me costó, pero por el hecho de identificar todos los puntos, las diagramas, las curvas y demás. Aún así, fue muy beneficiosa al nivel de aprendizaje.'},
   {week:10,activity:'AA9 P1: ejercicios de oferta, ingresos y costos; AA9 P2: PIB y satisfacción',learning:'Apliqué conceptos de costos y contrasté el crecimiento económico con el bienestar.'},
   {week:11,activity:'Presentación: supercolón y competitividad',learning:'Reflexioné sobre cómo la apreciación del colón influye en las exportaciones y la competitividad.'},
   {week:12,activity:'AA10 P1: salarios e IPC; AA10 P2: ENADEL y empleo tecnológico',learning:'Interpreté indicadores salariales y de demanda laboral útiles para el sector tecnológico.'},
   {week:13,activity:'AA10 P3: BCCR y Vietnam',learning:'Comparé decisiones de política monetaria y sus posibles consecuencias económicas.'},
-  {week:14,activity:'Sin evidencia incorporada en el portafolio',learning:'Pendiente de verificar qué contenidos o actividades se trabajaron esta semana.'},
+  {week:14,activity:'Sin evidencia incorporada en el portafolio',learning:'No hubo un trabajo en sí asignado para esta semana.'},
   {week:15,activity:'AA11: balanza de pagos y tipo de cambio; investigación grupal anunciada',learning:'Relacioné el tipo de cambio, la balanza de pagos y las reservas con la economía internacional.'},
 ];
 
