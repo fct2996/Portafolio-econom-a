@@ -14,7 +14,7 @@
   <script src="./app.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#evidencias">Saltar a las evidencias</a>
+  <a class="skip-link" href="#indice-semanal">Saltar al índice semanal</a>
   <div class="site-shell" id="inicio">
     <header class="site-header">
       <div class="container header-inner">
@@ -23,15 +23,16 @@
           <span class="wordmark-text"><strong>ECONOMÍA</strong><small>PORTAFOLIO ACADÉMICO</small></span>
         </a>
         <nav class="desktop-nav" aria-label="Navegación principal">
-          <a href="#trayecto">Mi recorrido</a>
+          <a href="#indice-semanal">Índice semanal</a>
           <a href="#evidencias">Evidencias</a>
+          <a href="#autoevaluacion">Autoevaluación</a>
           <a href="#reflexion">Reflexión</a>
         </nav>
         <a class="header-cta" href="https://drive.google.com/drive/folders/1l5ZANeqLN5Ml60vhGDDNSPs6e1wO370J" target="_blank" rel="noopener noreferrer">Carpeta de Drive <span aria-hidden="true">→</span></a>
         <button class="mobile-menu-button" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Abrir menú"><span></span><span></span><span></span></button>
       </div>
       <nav class="mobile-nav" id="mobileNav" aria-label="Navegación móvil" hidden>
-        <a href="#trayecto">Mi recorrido</a><a href="#evidencias">Evidencias</a><a href="#reflexion">Reflexión</a>
+        <a href="#indice-semanal">Índice semanal</a><a href="#evidencias">Evidencias</a><a href="#autoevaluacion">Autoevaluación</a><a href="#reflexion">Reflexión</a>
         <a href="https://drive.google.com/drive/folders/1l5ZANeqLN5Ml60vhGDDNSPs6e1wO370J" target="_blank" rel="noopener noreferrer">Abrir Drive →</a>
       </nav>
     </header>
@@ -46,7 +47,7 @@
             <h1 id="hero-title">La economía<br>más allá de<br><em>los números.</em></h1>
             <p>Un recorrido por las ideas, los análisis y los proyectos que dan sentido a lo aprendido en <strong>TI4200 Economía.</strong></p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#evidencias">Explorar el portafolio <span aria-hidden="true">→</span></a>
+              <a class="button button-primary" href="#indice-semanal">Explorar el portafolio <span aria-hidden="true">→</span></a>
               <a class="button button-ghost" href="#trayecto">Conocer el recorrido <span aria-hidden="true">↓</span></a>
             </div>
             <div class="hero-owner"><span class="avatar">CL</span><span><strong>Christian José López Carmona</strong><small>II semestre 2026 · TI4200 Economía</small></span></div>
@@ -85,6 +86,21 @@
         </div>
       </section>
 
+      <!-- Índice semanal solicitado por el docente -->
+      <section class="week-index-section section-space" id="indice-semanal" aria-labelledby="indice-title">
+        <div class="container">
+          <div class="week-index-head">
+            <div><div class="eyebrow dark"><span class="eyebrow-line"></span> TABLA DE CONTENIDOS</div>
+              <h2 id="indice-title">Un semestre, <span class="serif-italic">semana a semana.</span></h2>
+              <p>Selecciona una semana para consultar las actividades y sus documentos. Las semanas sin evidencias se conservan en el índice para mostrar todo el período.</p>
+            </div>
+            <span class="week-index-seal" aria-hidden="true">15<span>SEMANAS</span></span>
+          </div>
+          <nav class="weekly-index-grid" id="weeklyIndexGrid" aria-label="Índice de las 15 semanas del curso"></nav>
+          <div class="week-index-foot"><span class="index-dot" aria-hidden="true"></span> Las semanas sin evidencias registradas también se incluyen. <a href="#autoevaluacion">Ver tabla de autoevaluación →</a></div>
+        </div>
+      </section>
+
       <section class="archive-section section-space" id="evidencias" aria-labelledby="archive-title">
         <div class="container">
           <div class="archive-header"><div><div class="eyebrow dark"><span class="eyebrow-line"></span> EL ARCHIVO ACADÉMICO</div><h2 id="archive-title">Explora las <span class="serif-italic">evidencias.</span></h2><p>Trabajos originales, investigaciones y presentaciones, organizados en un mismo espacio.</p></div><div class="archive-icon" aria-hidden="true"><span>∑</span></div></div>
@@ -100,6 +116,25 @@
           <div id="archiveResults" aria-live="polite" class="result-line">Mostrando 15 evidencias</div>
           <div id="archiveGroups"></div>
           <div class="archive-bottom"><div><strong>¿Buscas algún archivo específico?</strong><span>También puedes consultar todos los originales en la carpeta completa.</span></div><a class="button button-secondary" href="https://drive.google.com/drive/folders/1l5ZANeqLN5Ml60vhGDDNSPs6e1wO370J" target="_blank" rel="noopener noreferrer">Abrir todos los archivos →</a></div>
+        </div>
+      </section>
+
+      <!-- Tabla de autoevaluación, una fila por semana -->
+      <section class="self-section section-space" id="autoevaluacion" aria-labelledby="self-title">
+        <div class="container">
+          <div class="self-section-heading">
+            <div class="eyebrow dark"><span class="eyebrow-line"></span> BALANCE DEL APRENDIZAJE</div>
+            <h2 id="self-title">Mi <span class="serif-italic">autoevaluación.</span></h2>
+            <p>Resumen de las actividades realizadas durante las 15 semanas, con una valoración de los aprendizajes. Las calificaciones de 0 a 100 deben completarse con mi propia valoración antes de la entrega.</p>
+          </div>
+          <div class="self-table-scroll" role="region" aria-label="Tabla de autoevaluación semanal" tabindex="0">
+            <table class="self-table">
+              <thead><tr><th scope="col">Semana</th><th scope="col">Actividades desarrolladas</th><th scope="col">Calificación (0–100)</th><th scope="col">Valoración de lo aprendido</th></tr></thead>
+              <tbody id="selfTableBody"></tbody>
+            </table>
+          </div>
+          <p class="self-note"><strong>Nota:</strong> la calificación es una autoevaluación personal del aprendizaje de cada semana, no la nota oficial asignada por el profesor. Las semanas sin evidencias están identificadas para su revisión.</p>
+          <a class="self-return-link" href="#indice-semanal">↑ Volver al índice semanal</a>
         </div>
       </section>
 
